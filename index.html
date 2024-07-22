@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EduWebsite - Cyber Security Awareness</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./script.js"></script>
 </head>
 <body>
-    <header class="" id="jumbroton">
+    <header class="h-screen" id="jumbroton">
         <video autoplay loop muted  class="absolute -z-20 h-screen w-full" src="./asset/background.mp4" style="object-fit: cover;"></video>
         <div class="absolute inset-0 bg-black opacity-50 -z-10"></div>
-        <nav class="w-auto h-[70px] flex justify-between container mx-auto  ">
+        <nav class="w-auto h-[80px] flex justify-between container mx-auto">
             <img src="./asset/Logo Dark.png" alt="Logo NY_Tech">
             <ul class="flex w-auto gap-8 py-7 text-white ">
                 <li class=""><a class="hover:text-violet-300" href="#home">Home</a></li>
@@ -21,15 +22,35 @@
                 <li class=""><a class="hover:text-violet-300" href="#tools">Security Tools</a></li>
             </ul>
         </nav>
-        <div class="container mx-auto py-[15%] grid grid-rows-2 text-white " id="jumbroton">
-            <h1 class="text-7xl font-semibold row-start-1 row-end-2 justify-center w-[70%]" id="header">Platform terbaik untuk belajar dan menguasai Teknologi Informasi.</h1>
-            <p class="text-1xl row-start-2 row-end-3 ">Temukan berbagai tutorial, sumber daya, dan kursus dari Ngurah Bagus dan Yudi Putra Wiratama. <br> 
+        <div class="container mx-auto py-[15%] grid grid-rows-2 text-white gap-2" id="jumbroton">
+            <h1 class="text-7xl font-semibold row-start-1 row-end-2 justify-center w-[70%]" id="header">Platform terbaik untuk belajar Cyber Security</h1>
+            <p class="text-lg row-start-2 row-end-3 ">Temukan berbagai tutorial, sumber daya, dan kursus dari Ngurah Bagus dan Yudi Putra Wiratama. <br> 
                 <button class="mt-2 h-10px bg-violet-700 px-5 py-2 rounded-full hover:bg-violet-900" id="get-started">Ged Started</button>
             </p>
         </div>
     </header>
-    <section class="" id="us">
-        
+    <section class="h-[400px] bg-indigo-950 text-white grid grid-rows-2 gap-y-5 text-center" id="what-cybersec">
+        <h2 class="text-4xl font-bold container mx-auto row-start-1 row-end-2 items-center self-end">Definition of Cyber Security</h2>
+        <p class="row-start-2 row-end-3 container mx-auto text-2xl self-start w-[70%]">Cyber security involves protecting computer systems, networks, and data from digital attacks, unauthorized access, damage, and data breaches. It encompasses a range of practices, tools, and techniques designed to safeguard digital information</p>
+    </section>
+    <section class="grid grid-rows-[200px_auto] bg-indigo-50" id="about-cyber-sec">
+        <pre class="row-start-1 row-end-2 container text-4xl font-medium mx-auto text-center self-center">See Below About Cyber Security</pre>
+        <iframe class="row-start-2 row-end-3 justify-self-center self-start pb-10" width="720" height="490" src="https://www.youtube.com/embed/shQEXpUwaIY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+    <section class="container mx-auto py-36" id="importance">
+        <h2 class="text-4xl font-medium text-indigo-950 text-center">Importance of Cyber Security</h2>
+        <ul class="flex justify-between mt-24 w-[80%] mx-auto">
+            <li class="font-bold text-lg relative"> <h2 class="text-8xl font-black italic absolute -z-10 -left-2 -top-10 text-violet-100">1</h2> Protects sensitive information</li>
+            <li class="font-bold text-lg relative"> <h2 class="text-8xl font-black italic absolute -z-10 -left-2 -top-10 text-violet-100">2</h2> Prevents unauthorized access</li>
+            <li class="font-bold text-lg relative"> <h2 class="text-8xl font-black italic absolute -z-10 -left-2 -top-10 text-violet-100">3</h2> Ensures business continuity</li>
+            <li class="font-bold text-lg relative"> <h2 class="text-8xl font-black italic absolute -z-10 -left-2 -top-10 text-violet-100">4</h2> Protects personal data</li>
+        </ul>
+    </section>
+    <section id="best-practices" class="bg-indigo-950 text-white">
+        <h2 class="text-center text-4xl font-medium p-24">Best Practices for Cyber Security</h2>
+        <div id="practices-animation" class="flex justify-center justify-items-center flex-wrap container mx-auto">
+            <!-- Best practices animations will be inserted here by JavaScript -->
+        </div>
     </section>
 </body>
 </html>
