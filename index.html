@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EduWebsite - Cyber Security Awareness</title>
+    <title>NY-EduTech - Cyber Security Awareness</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="./script.js"></script>
 </head>
@@ -33,7 +33,7 @@
         <h2 class="text-4xl font-bold container mx-auto row-start-1 row-end-2 items-center self-end">Definition of Cyber Security</h2>
         <p class="row-start-2 row-end-3 container mx-auto text-2xl self-start w-[70%]">Cyber security involves protecting computer systems, networks, and data from digital attacks, unauthorized access, damage, and data breaches. It encompasses a range of practices, tools, and techniques designed to safeguard digital information</p>
     </section>
-    <section class="grid grid-rows-[200px_auto] bg-indigo-50" id="about-cyber-sec">
+    <section class="grid grid-rows-[200px_520px] bg-indigo-50" id="about-cyber-sec">
         <pre class="row-start-1 row-end-2 container text-4xl font-medium mx-auto text-center self-center">See Below About Cyber Security</pre>
         <iframe class="row-start-2 row-end-3 justify-self-center self-start pb-10" width="720" height="490" src="https://www.youtube.com/embed/shQEXpUwaIY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </section>
@@ -47,11 +47,66 @@
         </ul>
     </section>
     <hr>
-    <section id="best-practices" class="bg-white text-black">
+    <section id="best-practices" class="bg-white text-black mb-10">
         <h2 class="text-center text-4xl font-medium p-20">Best Practices for Cyber Security</h2>
         <div id="practices-animation" class="flex justify-center flex-wrap container mx-auto gap-5">
             <!-- Best practices animations will be inserted here by JavaScript -->
         </div>
     </section>
+    <section class="bg-indigo-950 text-white py-20" id="threats">
+        <h2 class="text-4xl text-center font-bold">Common Cyber Security Threats</h2>
+        <p class="container mx-auto text-center text-lg pt-5 px-32">Cyber security threats come in many forms, including malware, phishing, ransomware, and DDoS attacks. Understanding these threats is the first step in protecting against them.</p>
+    </section>
+    <section id="tools" class="container mx-auto my-16">
+        <h2 class="text-4xl font-bold text-center py-10">Cyber Security Tools</h2>
+        <table class="table-auto border  border-slate-500 mx-auto">
+            <thead>
+                <tr>
+                    <th class="border border-slate-600">Tool</th>
+                    <th class="border border-slate-600">Description</th>
+                    <th class="border border-slate-600">Example</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="border border-slate-400 p-2"> Antivirus</td>
+                    <td class="border border-slate-400 p-2">Software designed to detect and destroy computer viruses.</td>
+                    <td class="border border-slate-400 p-2">McAfee, Norton</td>
+                </tr>
+                <tr>
+                    <td class="border border-slate-400 p-2">Firewall</td>
+                    <td class="border border-slate-400 p-2">Network security system that monitors and controls incoming and outgoing network traffic.</td>
+                    <td class="border border-slate-400 p-2">ZoneAlarm, Cisco ASA</td>
+                </tr>
+                <tr>
+                    <td class="border border-slate-400 p-2">Encryption</td>
+                    <td class="border border-slate-400 p-2">Process of converting information into code to prevent unauthorized access.</td>
+                    <td class="border border-slate-400 p-2">VeraCrypt, BitLocker</td>
+                </tr>
+                <tr>
+                    <td class="border border-slate-400 p-2">Multi-Factor Authentication</td>
+                    <td class="border border-slate-400 p-2">Security system that requires more than one method of authentication.</td>
+                    <td class="border border-slate-400 p-2">Google Authenticator, Duo</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <footer class="bg-slate-50 py-[100px]">
+        <div class="container mx-auto">
+            <nav>
+                <img src="./asset/Logo Light.png" alt="Light ny-logo" class="h-[70px]">
+                <ul class="row-start-2 row-end-3 col-start-1 col-end-2 flex w-auto gap-8 text-black ">
+                    <li class=""><a class="hover:text-violet-300" href="#home">Home</a></li>
+                    <li class=""><a class="hover:text-violet-300" href="#definition">Definition</a></li>
+                    <li class=""><a class="hover:text-violet-300" href="#importance">Importance</a></li>
+                    <li class=""><a class="hover:text-violet-300" href="#best-practices">Best Practices</a></li>
+                    <li class=""><a class="hover:text-violet-300" href="#threats">Common Threats</a></li>
+                    <li class=""><a class="hover:text-violet-300" href="#tools">Security Tools</a></li>
+                </ul>
+            </nav>
+            <br> <br> <br>
+            <p >&copy; 2024 ny-edutech</p>
+        </div>
+    </footer>
 </body>
 </html>
